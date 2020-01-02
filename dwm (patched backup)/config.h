@@ -136,9 +136,9 @@ static Key keys[] = {
 	
     /* Dmenu scripts launched with ALT + CTRL + KEY  */
 	{ Mod1Mask|ControlMask,   XK_e,            spawn,          CMD("./.dmenu/dmenu-edit-configs.sh") },
-	{ Mod1Mask|ControlMask,   XK_m,            spawn,          CMD("./.dmenu/dmenu-sysmon.sh") },
+	{ Mod1Mask|ControlMask,   XK_r,            spawn,          CMD("./.dmenu/dmenu-reddio.sh") },
 	{ Mod1Mask|ControlMask,   XK_p,            spawn,          CMD("passmenu") },
-	{ Mod1Mask|ControlMask,   XK_s,            spawn,          CMD("./.dmenu/dmenu-surfraw.sh") },
+	{ Mod1Mask|ControlMask,   XK_s,            spawn,          CMD("./.dmenu/dmenu-surfraw.sh") },,
     
     /* Apps Launched with SUPER + ALT + KEY  */
 	{ MODKEY|Mod1Mask,        XK_l,            spawn,          CMD("st -e lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss gopher://distro.tube") },
