@@ -1,9 +1,9 @@
-# My dwm (Dynamic Window Manager) build
+#  dwm (Dynamic Window Manager) build
 
-![Screenshot of my desktop](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles04.png) 
+![Screenshot from dt](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles04.png) 
 dwm is an extremely fast, small, and dynamic window manager for X.
 
-# My Keybindings
+#  Keybindings
 
 The MODKEY is set to the `Super` key (aka the `Windows` key)
 
@@ -12,6 +12,7 @@ The MODKEY is set to the `Super` key (aka the `Windows` key)
 | `ALT + CTRL + Enter` | opens run launcher (dmenu is the run launcher but can be easily changed) |
 | `MODKEY + Enter` | opens terminal (st is the terminal but can be easily changed) |
 | `MODKEY + SHIFT + c` | closes window with focus |
+| `MODKEY + q` | closes window with focus |
 | `MODKEY + SHIFT + q` | quits dwm |
 | `MODKEY + j` | focus stack +1 (switches focus between windows in the stack) |
 | `MODKEY + k` | focus stack -1 (switches focus between windows in the stack) |
