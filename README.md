@@ -1,3 +1,1 @@
-# linux
-# linux
-# linux
+# linux cfgs
